@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: #0b0d17;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  p {
+    color: #ffffff;
+    opacity: 50%;
+    line-height: 13.2px;
+    font-size: 12px;
+  }
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s ease;
+
+    &:hover {
+      color: #60cdf6;
+      text-decoration: underline;
+    }
+  }
+
+  button {
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    background-color: #23252e;
+    border: 1px solid #31333d;
+    border-radius: 15px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #60cdf6;
+      color: #0b0d17;
+    }
+  }
+
+  div {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+  }
+}
+
+main {
+  height: 580px;
+  background-image: url(img/photo123.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-box {
+  padding-top: 106px;
+  padding-bottom: 40px;
+
+  h1 {
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 39.9px;
+    color: #ef3833;
+    border-bottom: 2px solid #ef3833;
+  }
+
+  p {
+    padding-top: 16px;
+    font-size: 21px;
+    line-height: 24.2px;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .botton {
+    padding-top: 30px;
+
+    button {
+      width: 151px;
+      height: 44px;
+      font-size: 16px;
+      background-color: #45ccff;
+      border: none;
+      border-radius: 4px;
+      text-transform: uppercase;
+      color: white;
+      cursor: pointer;
+
+      &:hover {
+        background-color: blueviolet;
+        color: black;
+      }
+    }
+  }
+}
+
+.hero_box_body {
+  background-color: #F5F5F5;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+
+  .hero_text {
+    height: 170px;
+    border-right: 4px solid white;
+  }
+}
+
+.hero_box_text {
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  p {
+    padding-top: 15px;
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
+
+.moon {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 60px 0 60px 70px;
+
+  h2 {
+    font-size: 24px;
+    line-height: 25px;
+    color: white;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    font-weight: 300;
+  }
+
+  button {
+    margin-top: 20px;
+    width: 198px;
+    height: 44px;
+    font-size: 16px;
+    background-color: #45ccff;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+      background-color: blueviolet;
+      color: black;
+    }
+  }
+}
+
+.div_1 {
+  background-image: url(img/photo231.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 290px;
+  width: 970px;
+  border: 1px solid black;
+  border-radius: 15px;
+  transition: 0.3s ease;
+
+  &:hover {
+    box-shadow: 0px 6px 20px 5px rgba(0,0,0,0.68);
+    scale: 1.1;
+}
+}
+
+.div_2 {
+  background-image: url(img/photo321.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 290px;
+  width: 970px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding-left: 600px;
+  transition: 0.3s ease;
+
+  &:hover {
+    box-shadow: 0px 6px 20px 5px rgba(0,0,0,0.68);
+    scale: 1.1;
+}
+}
+
+.div_3 {
+  background-image: url(img/photo1234.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 290px;
+  width: 970px;
+  transition: 0.3s ease;
+  border: 1px solid black;
+  border-radius: 15px;
+
+  &:hover {
+    box-shadow: 0px 6px 20px 5px rgba(0,0,0,0.68);
+    scale: 1.1;
+}
+}
+
+.sun {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding-bottom: 100px;
+
+  h1 {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 38px;
+    text-align: center;
+  }
+}
+
+footer {
+  background-color: #0B0D17;
+}
